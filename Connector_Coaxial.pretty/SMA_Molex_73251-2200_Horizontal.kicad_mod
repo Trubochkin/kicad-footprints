@@ -1,4 +1,4 @@
-(module SMA_Molex_73251-2200_Horizontal (layer F.Cu) (tedit 5C07CA7C)
+(module SMA_Molex_73251-2200_Horizontal (layer F.Cu) (tedit 5D405E1D)
   (descr https://www.molex.com/webdocs/datasheets/pdf/en-us/0732512200_RF_COAX_CONNECTORS.pdf)
   (tags "SMA THT Female Jack Horizontal")
   (fp_text reference REF** (at -4.9 0 90) (layer F.SilkS)
@@ -43,9 +43,9 @@
   (pad 2 thru_hole circle (at 2.54 -2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 -2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at -2.54 2.54) (size 2.25 2.25) (drill 1.5) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/SMA_Molex_73251-2200_Horizontal.wrl
+  (model ${KISYS3DMOD}/Connector_Coaxial.3dshapes/L-KLS1-SMA002.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 -90))
   )
 )
