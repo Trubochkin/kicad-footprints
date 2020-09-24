@@ -1,4 +1,4 @@
-(module ESP-07 (layer F.Cu) (tedit 5B1D6972)
+(module ESP-07 (layer F.Cu) (tedit 5F6CAAF6)
   (descr "Wi-Fi Module, http://wiki.ai-thinker.com/_media/esp8266/docs/a007ps01a2_esp-07_product_specification_v1.2.pdf")
   (tags "Wi-Fi Module")
   (attr smd)
@@ -88,6 +88,11 @@
   (pad 2 smd rect (at -7.6 -2.9) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -7.6 -4.9) (size 2.5 1) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/RF_Module.3dshapes/ESP-07.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+  (model ${KISYS3DMOD}/RF_Module.3dshapes/ESP-07_1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
